@@ -15,7 +15,7 @@ function ShoppingList({items}) {
   return (
     <div className="ShoppingList">
       <div className="Filter">
-        <select name="filter" onClick={handleCategoryChange}>
+        <select name="filter" onChange={handleCategoryChange}>
           <option value="All">Filter by category</option>
           <option value="Produce">Produce</option>
           <option value="Dairy">Dairy</option>
